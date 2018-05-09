@@ -1,0 +1,195 @@
+html body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  width: 99%;
+}
+
+a {
+	text-decoration: none;
+	margin-top: -5px;
+	font-size: 12px;
+	padding: 1%;
+	color: 	#A9A9A9;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+#logo {
+	width: 15em;
+	margin: 0 auto;
+}
+
+img {
+	height: auto;
+	width: 90%;
+}
+
+/*homepage welcome section*/
+
+#welcome-section {
+	height: 30%;
+}
+
+#homepage-cover {
+	width: 98%;
+	margin-top: 2em;
+}
+
+#welcome-text {
+	margin: 80px auto;
+	width: 70%;
+	line-height: 23px;
+}
+
+
+
+/*homepage info section*/
+
+#about-container {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 50%;
+}
+
+#gallery-container {
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 50%;
+}
+
+#about-container img {
+	width: 95%;
+}
+
+#gallery-container img {
+	width: 95%;
+}
+
+.info-text {
+	text-align: left;
+	margin-left: 10px;
+	width: 95%;
+}
+
+#gallerybtn, #contactbtn {
+    float: left;
+    border: solid black .5px;
+    width: 26%;
+    padding: 15px;
+    margin-left: 10px;
+    color: #000;
+}
+
+#column-wrapper {
+	height: 60%;
+	width: 90%;
+	margin: 0 auto;
+	clear:both;
+}
+
+/*homepage quote section */
+
+#quote {
+    clear: both;
+    margin: 200px auto;
+    width: 80%;
+    height: 20%;
+}
+
+/*homepage menu section*/ 
+
+#img1-container {
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 50%;
+
+}
+
+#img1-container img {
+	width: 98%;
+}
+
+#img2-container {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 50%;
+}
+
+#img2-container img {
+	width: 98%;
+}
+
+#img3-container img {
+	width: 99%;
+	margin-bottom: 0.3%;
+}
+
+#img4-container img {
+	width: 99%;
+	margin-top: 0.3%;
+}
+
+#menu-wrapper {
+	width: 90%;
+	margin: 0 auto;
+	clear:both;
+	padding: 0;
+}
+
+
+
+#column1 {
+	float: left;
+	width: 33%;
+	height: 160px;
+
+}
+
+#column1 ul li {
+	list-style-type: none;
+	text-align: left;
+}
+
+#column2 {
+	height: 160px;
+	width: 33%;
+	display: inline-block;
+	
+}
+
+#column2 ul li {
+	list-style-type: none;
+}
+
+#column3 {
+	float: right;
+	width: 33%;
+	height: 160px;
+	
+}
+
+#column4 {
+	height: 40px;
+	width: 100%;
+}
+
+footer {
+	background: #838384;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	height: 200px;
+	clear: both;
+	margin: 20px 0 0 0;
+	padding: 10px;
+
+}

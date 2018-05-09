@@ -1,15 +1,17 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
+import logo from '../images/logo-black.png';
 
 class Header extends Component{
   render(){
     return (
       <header>
-      	<h1><Link to ={'/'}>ā café</Link></h1>
-        <Link to={'/about'}>Our Roots</Link>
-        <Link to={'/menu'}>Menu</Link>
-        <Link to={'/contact'}>Contact</Link>
-        <Link to={'/'}>Follow</Link>
+      	<img className="img-responsive" id='logo' src={logo} alt="logo"/>
+      	<br />
+        <Link to={'/about'}>OUR ROOTS</Link>
+        <Link to={'/menu'}>MENU</Link>
+        <Link to={'/contact'}>CONTACT</Link>
+        <Link to={'/'}>FOLLOW</Link>
       </header>
     )
   }
