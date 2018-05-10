@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Clearfix from 'react-clearfix';
 import MenuTop from '../components/MenuTop';
 import DrinkMenu from '../components/DrinkMenu'
+import FoodMenu from '../components/FoodMenu'
 import FoodImages from '../components/FoodImages'
 
 class MenuPageContainer extends Component {
@@ -11,6 +12,7 @@ class MenuPageContainer extends Component {
     		<MenuTop />
             <DrinkMenu />
             <Clearfix />
+            <FoodMenu />
             <FoodImages />
     		
     	</div>

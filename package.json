@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "firebase": "5.0.1",
     "react": "^16.3.2",
     "react-clearfix": "1.0.0",
     "react-dom": "^16.3.2",
     "react-router-dom": "4.2.2",
     "react-scripts": "1.1.4",
-    "react-skeleton-css": "1.1.0"
+    "react-skeleton-css": "1.1.0",
+    "yarn": "1.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
