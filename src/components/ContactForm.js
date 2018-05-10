@@ -7,7 +7,7 @@ class ContactForm extends Component {
 	constructor(props) {
 	    super(props);
 	    this.state = {
-	    	contact: {
+	    	contacts: {
 	    		data: []
 	    	},
 	    	newEmail: "",
@@ -21,20 +21,21 @@ class ContactForm extends Component {
 		this.onMessageChange = this.onMessageChange.bind(this)
     };
 
-    // componentWillMount() {
-    // 	this.firebaseRef = new Firebase("https://acafeboise.firebaseio.com");
-    // }
-
-    componentDidMount() {
-    	console.log(fire)
+    componentWillMount() {
+    	let contactRef = fire.database().ref('contacts').orderByKey().limitToLast(100);
+    	contactRef.on('child_added', snapshot => {
+    		let contact = { text: snapshot.val(), id: snapshot.key };
+    		this.setState({ contacts: [contact].concat(this.state.contacts) });
+    	})
     }
+
 
 	onFormSubmit(event) {
 		event.preventDefault()
-		this.firebaseRef.push({
-			newEmail : this.state.newEmail,
-			newSubject : this.state.newSubject,
-			newMessage : this.state.newMessage
+		fire.database().ref('contacts').push({
+			Email : this.state.newEmail,
+			Subject : this.state.newSubject,
+			Message : this.state.newMessage
 		});
 		this.setState({
 			newEmail: "",
@@ -46,7 +47,7 @@ class ContactForm extends Component {
 
 	onEmailChange(event){
 		this.setState({
-			contact : this.state.contact,
+			contacts : this.state.contact,
 			newEmail : event.target.value,
 			newSubject : this.state.newSubject,
 			newMessage : this.state.newMessage
@@ -57,7 +58,7 @@ class ContactForm extends Component {
 
 	onSubjectChange(event) {
 		this.setState({
-			contact : this.state.contact,
+			contacts : this.state.contact,
 			newEmail : this.state.newEmail,
 			newSubject : event.target.value,
 			newMessage : this.state.newMessage
@@ -66,7 +67,7 @@ class ContactForm extends Component {
 
 	onMessageChange(event){
 		this.setState({
-			contact : this.state.contact,
+			contacts : this.state.contact,
 			newEmail : this.state.newEmail,
 			newSubject : this.state.newSubject,
 			newMessage : event.target.value
