@@ -5,7 +5,7 @@ class Welcome extends Component {
   render() {
     return (
     	<section id="welcome-section">
-	    	<div id='cover-image'>
+	    	<div className='cover-image'>
 		    	<img className="img-responsive" id='homepage-cover' src={homepageCover} alt="logo"/>
 		    </div>
 		    <div id='welcome-text'>

@@ -1,12 +1,13 @@
 import React, {Component} from 'react'
-
+import MenuTop from '../components/MenuTop';
 
 class MenuPageContainer extends Component {
   render() {
     return (
-      <h2>
-        this is my menu page
-      </h2>
+    	<div>
+    		<MenuTop />
+    	</div>
+
     );
   }
 }

@@ -9,20 +9,20 @@ class Footer extends Component{
         <div id="column1">
           <h6>HOURS</h6>
           <ul>
-            <li>MONDAY <span>7am-8pm</span></li>
-            <li>TUESDAY <span>7am-8pm</span></li>
-            <li>WEDNESDAY <span>7am-8pm</span></li>
-            <li>THURSDAY <span>7am-8pm</span></li>
-            <li>FRIDAY <span>7am-8pm</span></li>
-            <li>SATURDAY <span>7am-6pm</span></li>
-            <li>SUNDAY <span>7am-5pm</span></li>
+            <li>MONDAY......................................7am-8pm</li>
+            <li>TUESDAY......................................7am-8pm</li>
+            <li>WEDNESDAY.............................7am-8pm</li>
+            <li>THURSDAY...................................7am-8pm</li>
+            <li>FRIDAY............................................7am-8pm</li>
+            <li>SATURDAY....................................7am-6pm</li>
+            <li>SUNDAY..........................................7am-5pm</li>
           </ul>
         </div>
         <div id="column2">
           <h6>LOCATION</h6>
           <ul>
-            <li>1001 W Main St.</li>
-            <li>Boise, Idaho</li>
+            <li>1001 W MAIN ST.</li>
+            <li>BOISE, IDAHO</li>
             <li>83702</li>
           </ul>
           
@@ -35,6 +35,7 @@ class Footer extends Component{
           <Link to={'/menu'}>MENU</Link>
           <Link to={'/contact'}>CONTACT</Link>
           <Link to={'/'}>FOLLOW</Link>
+          <Link to={'/'}>GALLERY</Link>
         </div>
       </footer>
     )

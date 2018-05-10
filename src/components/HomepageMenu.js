@@ -10,17 +10,17 @@ class HomepageMenu extends Component {
     return (
 	    <section id='menu-wrapper'>
 	        <div id='img3-container' className='column'> 
-    		    <img className="img-responsive" id='about-image' src={tea} alt='image of coffee'/>
+    		    <img className="img-responsive" id='tea' src={tea} alt='image of coffee'/>
     		</div>
     		<div id='img1-container' className='column'> 
-    		    <img className="img-responsive" id='about-image' src={salad} alt='image of coffee'/>
+    		    <img className="img-responsive" id='salad' src={salad} alt='image of coffee'/>
     		</div>
     		<div id='img2-container' className='column'> 
-    		    <img className="img-responsive" id='about-image' src={avocado} alt='image of coffee'/>
+    		    <img className="img-responsive" id='avocado' src={avocado} alt='image of coffee'/>
     		</div>
-    		<div id='img4-container' className='column'> 
-    		    <img className="img-responsive" id='about-image' src={sandwich} alt='image of coffee'/>
-    		</div>
+            <div id='img4-container' > 
+                <img className="img-responsive" id='about-image' src={sandwich} alt='image of coffee'/>
+            </div>
     	</section>
 
     );

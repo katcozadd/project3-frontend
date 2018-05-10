@@ -1,12 +1,15 @@
 import React, {Component} from 'react'
+import About from '../components/About';
+import Footer from '../components/Footer';
 
 
 class AboutPageContainer extends Component {
   render() {
     return (
-      <h2>
-        this is my about page
-      </h2>
+      <div>
+        <About />
+        <Footer />
+      </div>
     );
   }
 }

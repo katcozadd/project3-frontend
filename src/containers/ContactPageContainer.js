@@ -1,11 +1,13 @@
 import React, {Component} from 'react'
-
+import ContactForm from '../components/ContactForm';
+import Footer from '../components/Footer';
 
 class ContactPageContainer extends Component {
   render() {
     return (
       <h2>
-        this is my contact page
+        <ContactForm />
+        <Footer />
       </h2>
     );
   }
