@@ -305,4 +305,78 @@ h3#contact {
 	padding: 0;
 }
 
+/*MENU DRINKS*/
 
+#coffee-container {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 50%;
+	border-right: solid black 0.5px;
+}
+
+#tea-container {
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 50%;
+}
+
+
+.info-text {
+	text-align: left;
+	margin-left: 10px;
+	width: 95%;
+	padding-left: 70px;
+}
+
+#menu-wrapper {
+	height: 60%;
+	width: 90%;
+	margin: 0 auto;
+	clear: both;
+	margin-top: 2em;
+}
+
+/*food menu images*/
+#food2-img {
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 50%;
+
+}
+
+#food2-img img {
+	width: 98%;
+}
+
+#food3-img {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 50%;
+}
+
+#food3-img img {
+	width: 98%;
+}
+
+#food1-img img {
+	width: 99%;
+	margin-bottom: 0.3%;
+	margin-top: 2em;
+}
+
+#food4-img img {
+	width: 99%;
+	margin-top: 0.3%;
+}
+
+
+#food-wrapper {
+	width: 98%;
+	margin: 0 auto;
+	clear:both;
+	padding: 0;
+}

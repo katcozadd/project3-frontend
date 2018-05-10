@@ -23,7 +23,7 @@ class CafeInfo extends Component {
     			<p className="info-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 				Ad eum pariatur nisi error tempore, exercitationem ratione expedita assumenda, 
 				temporibus similique animi. Deserunt praesentium repellat labore quidem! </p>
-				<Link to={'/'} id="gallerybtn">LEARN MORE</Link>
+				<Link to={'/gallery'} id="gallerybtn">LEARN MORE</Link>
     		</div>
     	</section>
     );

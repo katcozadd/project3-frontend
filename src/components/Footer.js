@@ -35,7 +35,7 @@ class Footer extends Component{
           <Link to={'/menu'}>MENU</Link>
           <Link to={'/contact'}>CONTACT</Link>
           <Link to={'/'}>FOLLOW</Link>
-          <Link to={'/'}>GALLERY</Link>
+          <Link to={'/gallery'}>GALLERY</Link>
         </div>
       </footer>
     )
