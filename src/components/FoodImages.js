@@ -7,18 +7,30 @@ import tomatoes from '../images/tomatoes.jpg';
 class FoodImages extends Component {
   render() {
     return (
-	    <section id='food-wrapper'>
+	    <section id='food-wrapper' className="pic">
 	        <div id='food1-img' > 
     		    <img className="img-responsive" id='tomatoes' src={tomatoes} alt="tomatoes"/>
-    		</div>
-    		<div id='food2-img' > 
+                <span className="imgtext">
+                    <h3>GREEN TOMATO SALAD</h3>
+                </span>
+    		</div> 
+    		<div id='food2-img' className="pic"> 
     		    <img className="img-responsive" id='muffin' src={muffin} alt="muffin"/>
-    		</div>
-    		<div id='food3-img' > 
+                <span className="imgtext">
+                    <h3>ORANGE MUFFINS</h3>
+                </span>
+            </div>
+    		<div id='food3-img' className="pic"> 
     		    <img className="img-responsive" id='soup' src={soup} alt="soup"/>
+                <span className="imgtext">
+                    <h3>CAULIFLOWER SOUP</h3>
+                </span>
     		</div>
-            <div id='food4-img' > 
+            <div id='food4-img' className="pic"> 
                 <img className="img-responsive" id='pastries' src={pastries} alt="pastries"/>
+                <span className="imgtext">
+                    <h3>CHOCOLATE CROISSANT</h3>
+                </span>
             </div>
     	</section>
     );

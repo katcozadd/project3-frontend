@@ -12,11 +12,15 @@ class HomepageContainer extends Component {
 		return (
 			<div>
 				<Welcome />
+				<Clearfix />
 				<CafeInfo />
 				<Clearfix />
 				<Quote />
+				<Clearfix />
 				<HomepageMenu />
+				<Clearfix />
 				<Footer />
+				<Clearfix />
 			</div>
    
     	);

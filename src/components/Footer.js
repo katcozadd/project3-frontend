@@ -9,13 +9,11 @@ class Footer extends Component{
         <div id="column1">
           <h6>HOURS</h6>
           <ul>
-            <li>MONDAY......................................7am-8pm</li>
-            <li>TUESDAY......................................7am-8pm</li>
-            <li>WEDNESDAY.............................7am-8pm</li>
-            <li>THURSDAY...................................7am-8pm</li>
-            <li>FRIDAY............................................7am-8pm</li>
-            <li>SATURDAY....................................7am-6pm</li>
-            <li>SUNDAY..........................................7am-5pm</li>
+            <li>MONDAY-FRIDAY
+            <br />7am-8pm</li>
+            <li>SATURDAY & SUNDAY 
+            <br />7am-6pm</li>
+
           </ul>
         </div>
         <div id="column2">
@@ -28,7 +26,7 @@ class Footer extends Component{
           
         </div>
         <div id="column3">
-          <img className="img-responsive" id='logo' src={logo} alt="logo"/>
+          <img className="img-responsive" id='footerlogo' src={logo} alt="logo"/>
         </div>
         <div id="column4">
           <Link to={'/about'}>OUR ROOTS</Link>

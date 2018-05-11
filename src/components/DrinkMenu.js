@@ -5,7 +5,7 @@ class DrinkMenu extends Component {
   render() {
     return (
     	<section id='menu-wrapper'>
-    		<div id='coffee-container' className='column'>
+    		<div id='coffee-container' className='six columns'>
     			<h3 className="info-text column">COFFEE</h3>
                 <ul className="info-text column">
                     <li>AMERICANO</li>
@@ -16,7 +16,7 @@ class DrinkMenu extends Component {
                     <li>ESPRESSO SHOT</li>
                 </ul>
 			</div>
-    		<div id='tea-container' className='column'> 
+    		<div id='tea-container' className='six columns'> 
                 <h3 className="info-text column">TEA</h3>
                 <ul className="info-text column">
                     <li>ENGLISH BREAKFAST</li>

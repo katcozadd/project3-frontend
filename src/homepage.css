@@ -54,6 +54,8 @@ img {
 	padding: 0;
 	float: left;
 	width: 50%;
+	clear: left;
+	margin-bottom: 200px;
 }
 
 #gallery-container {
@@ -61,6 +63,8 @@ img {
 	padding: 0;
 	float: right;
 	width: 50%;
+	clear: right;
+	margin-bottom: 200px;
 }
 
 #about-container img {
@@ -75,6 +79,7 @@ img {
 	text-align: left;
 	margin-left: 10px;
 	width: 95%;
+	padding-left: 0px;
 }
 
 #gallerybtn, #contactbtn {
@@ -87,7 +92,7 @@ img {
 }
 
 #column-wrapper {
-	height: 60%;
+	height: 70%;
 	width: 90%;
 	margin: 0 auto;
 	clear:both;
@@ -96,10 +101,9 @@ img {
 /*homepage quote section */
 
 #quote {
-    clear: both;
     margin: 200px auto;
     width: 80%;
-    height: 20%;
+    height: 30%;
 }
 
 /*homepage menu section*/ 
@@ -144,7 +148,7 @@ img {
 	padding: 0;
 }
 
-
+/*footer*/
 
 #column1 {
 	float: left;
@@ -167,6 +171,7 @@ img {
 }
 
 #column2 {
+	float: left;
 	height: 160px;
 	width: 33%;
 	display: inline-block;
@@ -180,19 +185,27 @@ img {
 
 #column2 h6 {
 	color: white;
+	margin-bottom: 0;
 	
 }
 
 #column3 {
-	float: right;
+	float: left;
 	width: 33%;
 	height: 160px;
 	
 }
 
 #column4 {
+	float: left;
 	height: 40px;
 	width: 100%;
+}
+
+#footerlogo {
+	height: 80%;
+	width: auto;
+
 }
 
 footer {
@@ -204,7 +217,7 @@ footer {
 	height: 200px;
 	clear: both;
 	margin: 20px 0 0 0;
-	padding: 10px;
+	padding: 40px 0 0 10px;
 
 }
 
@@ -333,7 +346,6 @@ h3#contact {
 	text-align: left;
 	margin-left: 10px;
 	width: 95%;
-	padding-left: 70px;
 }
 
 #menu-wrapper {
@@ -386,3 +398,50 @@ h3#contact {
 	clear:both;
 	padding: 0;
 }
+
+/*image animation*/
+
+/*h3,
+p {
+  margin: 0;
+  padding: 0;
+}*/
+
+/*.imgtext {
+  color: white;
+  width: 155px;
+  height: 135px;
+  padding: 50px 15px 0 15px;
+  opacity: 0;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+}
+
+.pic1:hover img {
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -ms-filter: blur(1px);
+  -o-filter: blur(1px);
+  filter: blur(1px);
+  transform: scale(1.03);
+}
+
+.pic:hover .imgtext {
+  -webkit-opacity: 1;
+  opacity: 1;
+}*/
