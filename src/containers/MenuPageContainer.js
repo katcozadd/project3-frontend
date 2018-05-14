@@ -11,9 +11,9 @@ class MenuPageContainer extends Component {
     return (
     	<div>
     		<MenuTop />
-            <DrinkMenu />
-            <Clearfix />
             <FoodMenu />
+            <Clearfix />
+            <DrinkMenu />
             <FoodImages />
             <Footer />
     		
