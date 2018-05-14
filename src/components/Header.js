@@ -6,12 +6,19 @@ class Header extends Component{
   render(){
     return (
       <header>
-      	<img className="img-responsive" id='logo' src={logo} alt="logo"/>
+      	<Link to ="/"><img className="img-responsive" id='logo' src={logo} alt="logo"/></Link>
       	<br />
         <Link to={'/about'}>OUR ROOTS</Link>
         <Link to={'/menu'}>MENU</Link>
         <Link to={'/contact'}>CONTACT</Link>
-        <Link to={'/'}>FOLLOW</Link>
+        <div class="dropdown">
+          <a class="dropbtn">FOLLOW</a>
+            <div class="dropdown-content">
+              <Link to={'/'}>INSTAGRAM</Link>
+              <Link to={'/'}>FACEBOOK</Link>
+              <Link to={'/'}>BLOG</Link>
+          </div>
+        </div>
       </header>
     )
   }

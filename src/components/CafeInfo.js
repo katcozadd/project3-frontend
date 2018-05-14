@@ -8,7 +8,7 @@ class CafeInfo extends Component {
     return (
     	<section id='column-wrapper'>
     		<div id='about-container' className=''>
-    			<img className="img-responsive" id='about-image' src={aboutImage} alt='image of coffee'/>
+    			<Link to ="/about"><img className="img-responsive" id='about-image' src={aboutImage} alt='image of coffee'/></Link>
     			<br />
     			<h3 className="info-text">OUR ROOTS</h3>
     			<p className="info-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -17,7 +17,7 @@ class CafeInfo extends Component {
 				<Link to={'/about'} id="contactbtn">LEARN MORE</Link>
 			</div>
     		<div id='gallery-container' className=''> 
-    		    <img className="img-responsive" id='about-image' src={galleryImage} alt='image of cafe'/>
+    		    <Link to ="/gallery"><img className="img-responsive" id='about-image' src={galleryImage} alt='image of cafe'/></Link>
     			<br />
     			<h3 className="info-text">GALLERY</h3>
     			<p className="info-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 

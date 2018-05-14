@@ -4,9 +4,9 @@ import React, { Component } from 'react';
 class DrinkMenu extends Component {
   render() {
     return (
-    	<section id='menu-wrapper'>
-    		<div id='coffee-container' className='six columns'>
-    			<h3 className="info-text column">COFFEE</h3>
+        <section id="drinkmenu" class="section group">
+            <div class="col span_1_of_2">
+                <h3 className=" menu-titles column">COFFEE</h3>
                 <ul className="info-text column">
                     <li>AMERICANO</li>
                     <li>CAPPUCINO</li>
@@ -15,9 +15,9 @@ class DrinkMenu extends Component {
                     <li>MOCHA</li>
                     <li>ESPRESSO SHOT</li>
                 </ul>
-			</div>
-    		<div id='tea-container' className='six columns'> 
-                <h3 className="info-text column">TEA</h3>
+            </div>
+            <div class="col span_1_of_2">
+                <h3 className="menu-titles info-text column">TEA</h3>
                 <ul className="info-text column">
                     <li>ENGLISH BREAKFAST</li>
                     <li>EARL GREY</li>
@@ -26,10 +26,11 @@ class DrinkMenu extends Component {
                     <li>WHITE PEONY</li>
                     <li>CHAMOMILE</li>
                 </ul>
-    		</div>
-    	</section>
+            </div>
+        </section>
     );
   }
 }
 
 export default DrinkMenu;
+

@@ -5,8 +5,8 @@ class Quote extends Component {
   render() {
     return (
 	    	<section id="quote">
-	    		<h1>"THIS IS GOING TO BE A REALLY CUTE QUOTE ABOUT FEELING AT HOME BLAH BLAH BLAH"</h1>
-	    		<p>- <em>This Person</em></p>
+	    		<h1>"ATTENTION IS THE RAREST AND PUREST FORM OF GENEROSITY"</h1>
+	    		<p>- <em>Weil</em></p>
 	    	</section>
 
     );
