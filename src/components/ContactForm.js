@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import fire from "../fire";
-
-
-
+import axios from 'axios'
 
 
 class ContactForm extends Component {
@@ -45,6 +43,19 @@ class ContactForm extends Component {
 			newMessage: ""
 		});
 
+		let contactFormInfo = {
+			email: this.state.newEmail,
+			subject: this.state.newSubject,
+			message: this.state.newMessage
+		}
+		axios.post('https://acafeboise.herokuapp.com/contact', contactFormInfo)
+		.then(response => { 
+			console.log(response)
+			this.props.history.push('/contact');
+})
+		.catch(error => {
+    console.log(error.response)
+		})
 	}
 
 	onEmailChange(event){
@@ -54,7 +65,6 @@ class ContactForm extends Component {
 			newSubject : this.state.newSubject,
 			newMessage : this.state.newMessage
 		})
-		console.log(event.target.value)
 
 	}
 
