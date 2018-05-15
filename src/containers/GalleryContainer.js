@@ -1,10 +1,13 @@
 import React, {Component} from 'react'
+import Gallery from '../components/Gallery';
+import Footer from '../components/Footer';
 
 class GalleryContainer extends Component {
   render() {
     return (
     	<div>
-    		<p>dis a gallery yoooooo</p>
+    		<Gallery />
+    		<Footer/>
     	</div>
 
     );

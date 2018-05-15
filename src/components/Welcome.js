@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import homepageCover from '../images/cafe.jpg';
+import homepageCover from '../images/home.jpg';
 
 class Welcome extends Component {
   render() {
@@ -9,17 +9,14 @@ class Welcome extends Component {
 		    	<img className="img-responsive" id='homepage-cover' src={homepageCover} alt="logo"/>
 		    </div>
 		    <div id='welcome-text'>
-		    	<h1>Welcome to ā café</h1>
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-				Ad eum pariatur nisi error tempore, exercitationem ratione expedita assumenda, 
-				temporibus similique animi. Deserunt praesentium repellat labore quidem! 
-				Voluptas eligendi commodi obcaecati. Lorem ipsum dolor sit amet, consectetur 
-				adipisicing elit. Ad eum pariatur nisi error tempore, exercitationem ratione expedita assumenda, 
-				temporibus similique animi. Deserunt praesentium repellat labore quidem! 
-				Voluptas eligendi commodi obcaecati. </p>
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-				Ad eum pariatur nisi error tempore, exercitationem ratione expedita assumenda, 
-				temporibus similique animi. Deserunt praesentium repellat labore quidem! </p>
+		    	<h1>Welcome to Ā Café</h1>
+				<p> Hey there! Welcome to Ā Café. Whether you are here on purpose or by coincidence, 
+				equally glad you are here. Located in the heart of Boise's downtown district. 
+				We are here to not only serve everything from scratch, but to serve with a smile.
+				Good food and good drinks deserve to be enjoyed in an amazing environment and that
+				is exactly what you will find here at Ā Café.  </p>
+				<p> Take a moment to explore our website and learn a litte more about 
+				us! </p>
 			</div>
 		</section>
     );

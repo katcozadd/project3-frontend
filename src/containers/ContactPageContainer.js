@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import ContactForm from '../components/ContactForm';
-import Footer from '../components/Footer';
+import ContactPageFooter from '../components/ContactPageFooter';
 import firebase from 'firebase';
 
 class ContactPageContainer extends Component {
@@ -8,7 +8,7 @@ class ContactPageContainer extends Component {
 	    return (
 	      <h2>
 	        <ContactForm db={firebase}/>
-	        <Footer />
+	        <ContactPageFooter />
 	      </h2>
 	    );
   }

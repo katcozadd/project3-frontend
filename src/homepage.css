@@ -3,6 +3,7 @@ html body {
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
+  height: 100%;
 }
 
 a {
@@ -185,138 +186,6 @@ img {
 	padding: 0;
 }
 
-/*footer*/
-
-/*  SECTIONS  */
-
-footer {
-	background: #7c7c7c;
-}
-
-.section {
-	clear: both;
-	padding: 10px;
-	margin: 0px;
-	margin-top: 2rem;
-	height: 100%;
-}
-
-#footerlogo {
-	height: 9em;
-	width: auto;
-	
-}
-
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
-
-}
-.col:first-child { margin-left: 0; }
-
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-
-/*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 66.13%; }
-.span_1_of_3 { width: 32.26%; }
-
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
-}
-
-footer h6 {
-	color: #fff;
-	margin-bottom: 2px;
-	font-weight: normal;
-}
-
-footer ul li {
-	color: #fff;
-	list-style-type: none;
-	font-weight: lighter;
-}
-
-#footer-links a {
-	color: white;
-	font-weight: lighter;
-}
-
-#footer-links {
-	background: #7c7c7c;
-	padding: 0;
-	margin: 0;
-	position: relative;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-}
-
-/*contact form*/
-
-
-
-#contact-form {
-    width: 60%;
-    height: 80%;
-    margin: 50px auto;
-}
-
-#first-name {
-	width: 28%;
-	height: 15%;
-	margin-right: 5px;
-	padding: 5px;
-}
-
-#last-name {
-	width: 28%;
-	padding: 5px;
-}
-
-label {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	font-size: 1.5rem;
-	font-weight: lighter;
-	text-align: left;
-}
-
-#email, #subject {
-	width: 60%;
-	height: 15%;
-	padding: 5px;
-}
-
-#recipientInput {
-    width: 100%;
-    height: 12%;
-    padding: 12px;
-}
-
-input, textarea {
-	margin-top: 10px;
-}
-
-p {
-    font-size: 1.8rem;
-    width: 80%;
-    margin: 25px auto;
-}
-
-h3#contact {
-    margin: 25px 0 0 0;
-}
-
-
 /*about page*/
 #about-cover {
 	width: 98%;
@@ -477,4 +346,181 @@ ul li {
 	padding: 0;
 }
 
+#blog {
+	height: 600px;
+}
+
+#about-text {
+	width: 70%;
+	margin: 20px auto;
+}
+
+
+/*footer*/
+
+/*  SECTIONS  */
+
+
+
+.section {
+	clear: both;
+	padding: 10px;
+	margin: 0px;
+	margin-top: 2em;
+	height: 100%;
+}
+
+#footerlogo {
+	height: 9em;
+	width: auto;
+	
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+footer h6 {
+	color: #fff;
+	margin-bottom: 2px;
+	font-weight: normal;
+}
+
+footer ul li {
+	color: #fff;
+	list-style-type: none;
+	font-weight: lighter;
+
+}
+
+#footer-links a {
+	color: white;
+	font-weight: lighter;
+
+}
+
+
+
+footer {
+	background: #7c7c7c;
+	position: sticky;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+#footer-links {
+	background: #7c7c7c;
+	float: right;
+	padding-bottom: 0;
+	margin: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+/*contact form*/
+
+
+
+#contact-form {
+    width: 60%;
+    height: 80%;
+    margin: 50px auto;
+}
+
+#first-name {
+	width: 28%;
+	height: 15%;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+#last-name {
+	width: 28%;
+	padding: 5px;
+}
+
+label {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: lighter;
+	text-align: left;
+}
+
+#email, #subject {
+	width: 60%;
+	height: 15%;
+	padding: 5px;
+}
+
+#recipientInput {
+    width: 100%;
+    height: 12%;
+    padding: 12px;
+}
+
+input, textarea {
+	margin-top: 10px;
+}
+
+p {
+    font-size: 1.8rem;
+    width: 80%;
+    margin: 25px auto;
+}
+
+h3#contact {
+    margin: 25px 0 0 0;
+}
+
+
+#contfooterlogo {
+	height: 3.7em;
+	width: auto;
+}
+
+.contact-ul {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	letter-spacing: .3px;
+	color: #fff;
+	list-style-type: none;
+	font-weight: lighter;
+	line-height: 28px;
+}
+
+.contact-title {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	margin-bottom: 2px;
+	font-weight: normal;
+}
+
+#galleryarea {
+	height: 600px;
+}
 

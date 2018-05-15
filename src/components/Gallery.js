@@ -1,54 +1,31 @@
 import React, { Component } from 'react';
+import Footer from '../components/Footer';
 import tea from '../images/tea.jpg';
 import avocado from '../images/avo.jpg';
 import salad from '../images/salad.jpg';
 import sandwich from '../images/sandio.jpg';
+import cafe from '../images/cafe.jpg';
+import home from '../images/home.jpg';
+import muffin from '../images/muffin.jpg';
+import latte from '../images/latte.jpg';
+import windows from '../images/windows.jpg';
+import pourover from '../images/pourover.jpg';
+import seating from '../images/seating.jpg';
 
 
-class HomepageMenu extends Component {
+class Gallery extends Component {
   render() {
     return (
-	    <section id='menu-wrapper'>
-	        <div id='gal1' className='column'> 
-    		    <img className="img-responsive" id='tea' src={tea} alt='image of coffee'/>
-    		</div>
-    		<div id='gal2' className='column'> 
-    		    <img className="img-responsive" id='salad' src={salad} alt='image of coffee'/>
-    		</div>
-    		<div id='gal3' className='column'> 
-    		    <img className="img-responsive" id='avocado' src={avocado} alt='image of coffee'/>
-    		</div>
-            <div id='gal4' > 
-                <img className="img-responsive" id='about-image' src={sandwich} alt='image of coffee'/>
-            </div>
-            <div id='gal5' className='column'> 
-                <img className="img-responsive" id='tea' src={tea} alt='image of coffee'/>
-            </div>
-            <div id='gal6' className='column'> 
-                <img className="img-responsive" id='salad' src={salad} alt='image of coffee'/>
-            </div>
-            <div id='gal7' className='column'> 
-                <img className="img-responsive" id='avocado' src={avocado} alt='image of coffee'/>
-            </div>
-            <div id='gal8' > 
-                <img className="img-responsive" id='about-image' src={sandwich} alt='image of coffee'/>
-            </div>
-            <div id='gal9' className='column'> 
-                <img className="img-responsive" id='tea' src={tea} alt='image of coffee'/>
-            </div>
-            <div id='gal10' className='column'> 
-                <img className="img-responsive" id='salad' src={salad} alt='image of coffee'/>
-            </div>
-            <div id='gal11' className='column'> 
-                <img className="img-responsive" id='avocado' src={avocado} alt='image of coffee'/>
-            </div>
-            <div id='gal12' > 
-                <img className="img-responsive" id='about-image' src={sandwich} alt='image of coffee'/>
-            </div>
-    	</section>
+        
+        <section >
+        <h1 id='galleryarea'> Gallery coming soon! </h1>
+        </section>
 
     );
   }
 }
 
-export default HomepageMenu
+
+
+
+export default Gallery

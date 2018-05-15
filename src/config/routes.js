@@ -5,6 +5,7 @@ import AboutPageContainer from '../containers/AboutPageContainer';
 import MenuPageContainer from '../containers/MenuPageContainer';
 import ContactPageContainer from '../containers/ContactPageContainer';
 import GalleryContainer from '../containers/GalleryContainer';
+import BlogContainer from '../containers/BlogContainer';
 
 
 
@@ -15,5 +16,6 @@ export default (
     <Route path='/menu' component={ MenuPageContainer }/>
     <Route path='/contact' component={ ContactPageContainer }/>
     <Route path='/gallery' component={ GalleryContainer} />
+    <Route path='/blog' component={ BlogContainer } />
   </Switch>
 )
