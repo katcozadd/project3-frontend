@@ -14,8 +14,8 @@ class Header extends Component{
         <div class="dropdown">
           <a class="dropbtn">FOLLOW</a>
             <div class="dropdown-content">
-              <Link to={'/https://www.instagram.com/katcozadd'}>INSTAGRAM</Link>
-              <Link to={'/https://www.facebook.com/katcozaddphotos'}>FACEBOOK</Link>
+              <Link to={'/instagram'} target='_blank'>INSTAGRAM</Link>
+              <Link to={'/facebook'} target='_blank'>FACEBOOK</Link>
               <Link to={'/blog'}>BLOG</Link>
           </div>
         </div>

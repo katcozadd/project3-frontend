@@ -17,5 +17,8 @@ export default (
     <Route path='/contact' component={ ContactPageContainer }/>
     <Route path='/gallery' component={ GalleryContainer} />
     <Route path='/blog' component={ BlogContainer } />
+    <Route path='/instagram' component={() => window.location = 'https://www.instagram.com/katcozadd'} />
+    <Route path='/facebook' component={() => window.location = 'https://www.facebook.com/katcozaddphotos'} />
   </Switch>
 )
+
