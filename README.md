@@ -60,6 +60,8 @@ I am also very proud that this website will be used for one of my friend's busin
 
 You can find my website deployed on [Surge](http://acafeboise.surge.sh/)
 
+My backend is deployed on Firebase and on [Heroku](https://github.com/katcozadd/project3-backend)
+
 ### Personal Flare
 
 I built this website based on what my client/friend needs for her website functionality.
